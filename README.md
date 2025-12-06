@@ -10,13 +10,17 @@ Run a reproducible experiment walk-through: data load, EDA, hypothesis testing (
 
 ## One-click Colab
 
-[![Open In Colab]("https://colab.research.google.com/drive/1mOgjxl1q8b1ishicwq1XFMejkWlX5t8a?usp=sharing")](LINK_TO_NOTEBOOK)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mOgjxl1q8b1ishicwq1XFMejkWlX5t8a?usp=sharing)
+
 
 ---
 <p align="center">
   <img src="average_revenue.png" width="45%" />
   <img src="conversion_rate.png" width="45%" />
 </p>
+
+
 
 ## Repo structure (Colab-focused)
 notebooks/ab_testing_colab.ipynb # main Colab notebook

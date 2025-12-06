@@ -56,7 +56,56 @@ ab-testing-playbook/
 └── README.md                       # (paste content below)
 
 ```
+📘 A/B Test Design & Methodology
 
+This project evaluates Variant A vs Variant B using conversion rate and revenue per user as key performance indicators (KPIs).
+The workflow follows standard industry A/B testing methodology.
+
+🎯 1. Hypothesis Setup
+Null Hypothesis (H₀):
+
+There is no difference in performance between Variant A and Variant B.
+
+Alternative Hypothesis (H₁):
+
+Variant B performs better than Variant A in terms of conversion rate and revenue per user.
+
+🧮 2. Experiment Metrics
+Metric	Variant A	Variant B
+Conversion Rate	9.61%	11.77%
+Revenue per User	$1.94	$2.53
+🔬 3. Statistical Tests Applied
+📌 Proportion z-test (Conversion Rate)
+
+Used to determine whether the difference in conversion rates is statistically significant.
+
+p-value = 1.0000
+
+Conclusion: Not significant at α = 0.05
+
+The observed conversion uplift could be due to random variation.
+
+📌 Two-Sample t-test (Revenue per User)
+
+Used to compare average revenue between the two groups.
+
+Result: Statistically significant
+
+Interpretation: Variant B users generate meaningfully higher revenue per user.
+
+📊 4. Visual Comparison
+Conversion Rate vs Revenue
+<p align="center"> <img src="average_revenue.png" width="45%" /> <img src="conversion_rate.png" width="45%" /> </p>
+
+These charts visualize the performance differences between the variants.
+
+📌 5. Final Conclusion
+
+Conversion rate difference is not statistically significant
+
+Revenue per user is significantly higher for Variant B
+
+The experiment has mixed results, indicating that conversion uplift may not be reliable yet
 
 
 ---

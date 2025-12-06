@@ -29,17 +29,6 @@ You can view the full raw results here:
 👉 [**ab_test_results_summary.csv**](ab_test_results_summary.csv)
 
 
-### 📁 A/B Test Summary (from `ab_test_results_summary.csv`)
-
-| metric           | variant_A | variant_B |
-|------------------|-----------|-----------|
-| avg_revenue      | 1.92      | 2.52      |
-| conversion_rate  | 0.095     | 0.118     |
-| uplift_conv      | -         | +24.21%   |
-| uplift_revenue   | -         | +31.25%   |
-
-
-
 
 ## Repo structure (Colab-focused)
 notebooks/ab_testing_colab.ipynb # main Colab notebook

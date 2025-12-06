@@ -22,6 +22,23 @@ Run a reproducible experiment walk-through: data load, EDA, hypothesis testing (
 ![Conversion Rate](conversion_rate_chart.png)
 
 
+### 📁 A/B Test Results CSV
+
+You can view the full raw results here:
+
+👉 [**ab_test_results_summary.csv**](ab_test_results_summary.csv)
+
+
+### 📁 A/B Test Summary (from `ab_test_results_summary.csv`)
+
+| metric           | variant_A | variant_B |
+|------------------|-----------|-----------|
+| avg_revenue      | 1.92      | 2.52      |
+| conversion_rate  | 0.095     | 0.118     |
+| uplift_conv      | -         | +24.21%   |
+| uplift_revenue   | -         | +31.25%   |
+
+
 
 
 ## Repo structure (Colab-focused)

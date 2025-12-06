@@ -15,10 +15,12 @@ Run a reproducible experiment walk-through: data load, EDA, hypothesis testing (
 
 
 ---
-<p align="center">
-  <img src="average_revenue.png" width="45%" />
-  <img src="conversion_rate.png" width="45%" />
-</p>
+### 📊 Average Revenue per User
+![Average Revenue](revenue_chart.png)
+
+### 📈 Conversion Rate
+![Conversion Rate](conversion_rate_chart.png)
+
 
 
 
